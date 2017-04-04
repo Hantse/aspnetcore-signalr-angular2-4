@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  simplesignalrsample:
+    image: simplesignalrsample
+    build:
+      context: ./SimpleSignalRSample
+      dockerfile: Dockerfile
